@@ -2,7 +2,7 @@
 //  Mediator.swift
 //  Mediator
 //
-//  Created by yaowang on 2021/5/5.
+//  Created by Yao wang on 2021/5/5.
 //
 
 import UIKit
