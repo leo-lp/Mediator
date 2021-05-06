@@ -1,0 +1,6 @@
+framework module Mediator_BusinessModule {
+  umbrella header "Mediator+BusinessModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

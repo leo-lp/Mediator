@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Mediator-Mediator/Pods-Mediator-Mediator-frameworks.sh
+${BUILT_PRODUCTS_DIR}/BasicComponents/BasicComponents.framework
+${BUILT_PRODUCTS_DIR}/BusinessModule/BusinessModule.framework
+${BUILT_PRODUCTS_DIR}/Mediator+BusinessModule/Mediator_BusinessModule.framework

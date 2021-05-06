@@ -1,0 +1,3 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BasicComponents.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BusinessModule.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mediator_BusinessModule.framework

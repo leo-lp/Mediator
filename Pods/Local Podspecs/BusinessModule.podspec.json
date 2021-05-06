@@ -1,0 +1,48 @@
+{
+  "name": "BusinessModule",
+  "version": "0.1.0",
+  "summary": "A short description of BusinessModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yaowang/BusinessModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yaowang": "lipengmjy@163.com"
+  },
+  "source": {
+    "git": "https://github.com/yaowang/BusinessModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "Mediator+BusinessModule": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "RootModule",
+      "source_files": "BusinessModule/RootModule/**/*"
+    },
+    {
+      "name": "HomeModule",
+      "source_files": "BusinessModule/HomeModule/**/*"
+    },
+    {
+      "name": "MomentModule",
+      "source_files": "BusinessModule/MomentModule/**/*"
+    },
+    {
+      "name": "MeModule",
+      "source_files": "BusinessModule/MeModule/**/*"
+    },
+    {
+      "name": "RoomModule",
+      "source_files": "BusinessModule/RoomModule/**/*"
+    }
+  ]
+}

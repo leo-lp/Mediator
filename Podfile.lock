@@ -1,16 +1,47 @@
 PODS:
-  - Mediator (0.1.0)
+  - BasicComponents (0.1.0):
+    - BasicComponents/Mediator (= 0.1.0)
+    - BasicComponents/UnfairLock (= 0.1.0)
+  - BasicComponents/Mediator (0.1.0)
+  - BasicComponents/UnfairLock (0.1.0)
+  - BusinessModule (0.1.0):
+    - BusinessModule/HomeModule (= 0.1.0)
+    - BusinessModule/MeModule (= 0.1.0)
+    - BusinessModule/MomentModule (= 0.1.0)
+    - BusinessModule/RoomModule (= 0.1.0)
+    - BusinessModule/RootModule (= 0.1.0)
+    - "Mediator+BusinessModule"
+  - BusinessModule/HomeModule (0.1.0):
+    - "Mediator+BusinessModule"
+  - BusinessModule/MeModule (0.1.0):
+    - "Mediator+BusinessModule"
+  - BusinessModule/MomentModule (0.1.0):
+    - "Mediator+BusinessModule"
+  - BusinessModule/RoomModule (0.1.0):
+    - "Mediator+BusinessModule"
+  - BusinessModule/RootModule (0.1.0):
+    - "Mediator+BusinessModule"
+  - "Mediator+BusinessModule (0.1.0)":
+    - BasicComponents/Mediator
 
 DEPENDENCIES:
-  - Mediator (from `./`)
+  - BasicComponents (from `./`)
+  - BusinessModule (from `./`)
+  - "Mediator+BusinessModule (from `./`)"
 
 EXTERNAL SOURCES:
-  Mediator:
+  BasicComponents:
+    :path: "./"
+  BusinessModule:
+    :path: "./"
+  "Mediator+BusinessModule":
     :path: "./"
 
 SPEC CHECKSUMS:
-  Mediator: d7ef9bbb9441ddfc44876edd3ba042a46ea773d6
+  BasicComponents: abe4938b6f850798e119c0edfa5a40d07fce9bca
+  BusinessModule: ff011b4db7f456a4da5245d2398be5f69e7a4fed
+  "Mediator+BusinessModule": 3350d0722728182cdf7fa7995ebfcaa7eb85e55d
 
-PODFILE CHECKSUM: 403e234621d901dbae8a042a95b77ac85da82320
+PODFILE CHECKSUM: fe1b6acbfad76709cf7fa103941b5e7bb7b19a1f
 
 COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+framework module BusinessModule {
+  umbrella header "BusinessModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

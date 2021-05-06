@@ -1,0 +1,16 @@
+BasicComponents:
+  LABEL: BasicComponents
+  PROJECT_PATH: BasicComponents.xcodeproj
+  UUID: 7CDE94A4956E0702D0F9661EEDCF078C
+BusinessModule:
+  LABEL: BusinessModule
+  PROJECT_PATH: BusinessModule.xcodeproj
+  UUID: 50E0394BE82C71F693956129F55CF86A
+"Mediator+BusinessModule":
+  LABEL: "Mediator+BusinessModule"
+  PROJECT_PATH: "Mediator+BusinessModule.xcodeproj"
+  UUID: C93C2639875B3A100CA30852B11AC647
+Pods-Mediator-Mediator:
+  LABEL: Pods-Mediator-Mediator
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: 8658992EE4FA9EDBCADD2E28DAF280E6

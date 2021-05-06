@@ -1,22 +1,32 @@
-# Uncomment the next line to define a global platform for your project
+install! 'cocoapods',
+:generate_multiple_pod_projects => true
+#:incremental_installation => true
+
 platform :ios, '10.0'
+use_frameworks!
 
-target 'Example' do
-    # Comment the next line if you don't want to use dynamic frameworks
-    use_frameworks!
-    
-    # Pods for Example
-    pod 'Mediator', :path => './'
-    
-    
-    target 'ExampleTests' do
-        inherit! :search_paths
-        # Pods for testing
-        
+workspace 'Mediator.xcworkspace'
+
+abstract_target 'Mediator' do
+
+    #target 'MediatorDemo' do
+        #project 'MediatorDemo/MediatorDemo.xcodeproj'
+        #
+        ## https://github.com/apple/swift-protobuf
+        #pod 'SwiftProtobuf', '= 1.12.0'
+    #end
+
+    target 'Mediator' do
+        project 'Mediator/Mediator.xcodeproj'
+
+        # https://github.com/apple/swift-protobuf
+        #pod 'SwiftProtobuf', '= 1.12.0'
+
+        # Pods for Example
+        pod 'BusinessModule', :path => './'
+        pod 'Mediator+BusinessModule', :path => './'
+        pod 'BasicComponents', :path => './'
+
     end
 
-    target 'ExampleUITests' do
-        # Pods for testing
-        
-    end
 end

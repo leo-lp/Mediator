@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1013C4A524FF2F6F7ABCEFA38B98DB2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC214AE0532BD398E1D252141E42DF5 /* Foundation.framework */; };
+		531E363C1D7BE2C67CAD5A2593BB1E94 /* Mediator+BusinessModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EFCF7992DA5DF66F2F93278A5D3BE0 /* Mediator+BusinessModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B622F75DAE892E3C592809F74794C30B /* BasicComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C50D1737EF68EC95F91D0A362078F5EC /* BasicComponents.framework */; };
+		B77F26B0E1C4F0C549C8A8BDD1BFFAE4 /* Mediator+HomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF93E58A8D532F103E4ECABF0CB3CB50 /* Mediator+HomeModule.swift */; };
+		BC6A432FA7015EFF8C92AFB1A30BDD28 /* Mediator+MomentModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38F4C29CB5FE19BC37970C54B37D0D /* Mediator+MomentModule.swift */; };
+		C75C71FE338387DA775BE0F18088C911 /* Mediator+BusinessModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B84D231993121A539A568C93A89D6973 /* Mediator+BusinessModule-dummy.m */; };
+		C78D21EB31BB7E07631070D1DAAA600D /* Mediator+RoomModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDA9E16274F507E9064C91928F49748 /* Mediator+RoomModule.swift */; };
+		D8E809373B57845FA25954DFE70F57D8 /* Mediator+MeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4661FC873DD5FD2287137E4C0F1C12A /* Mediator+MeModule.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68C5341A5EE6AF1566D4667A91C0EA88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B642EDEE1FA6B219585059478B984A9 /* BasicComponents.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CDE94A4956E0702D0F9661EEDCF078C;
+			remoteInfo = BasicComponents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		067E2EA125DB84A1C87F5537B04FD65C /* Mediator+BusinessModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mediator+BusinessModule.release.xcconfig"; sourceTree = "<group>"; };
+		0BDA9E16274F507E9064C91928F49748 /* Mediator+RoomModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Mediator+RoomModule.swift"; path = "Mediator+BusinessModule/Mediator+RoomModule.swift"; sourceTree = "<group>"; };
+		2CC214AE0532BD398E1D252141E42DF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		42EF0E194AE11B893175F4F742A69796 /* Mediator+BusinessModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Mediator+BusinessModule.modulemap"; sourceTree = "<group>"; };
+		4AE1A0E89C04781E5B62254F771C411E /* Mediator+BusinessModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mediator+BusinessModule.debug.xcconfig"; sourceTree = "<group>"; };
+		72EFCF7992DA5DF66F2F93278A5D3BE0 /* Mediator+BusinessModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mediator+BusinessModule-umbrella.h"; sourceTree = "<group>"; };
+		787EAAF2508338A1CCD3DF5F7F5BC0BB /* Mediator_BusinessModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mediator_BusinessModule.framework; path = "Mediator+BusinessModule.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		832B5146366DBC9CA514DFFE6FD5AD66 /* Mediator+BusinessModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mediator+BusinessModule-Info.plist"; sourceTree = "<group>"; };
+		854B6FD544FA122EBFBF0121B768FDCB /* Mediator+BusinessModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "Mediator+BusinessModule.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B642EDEE1FA6B219585059478B984A9 /* BasicComponents */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BasicComponents; path = BasicComponents.xcodeproj; sourceTree = "<group>"; };
+		B84D231993121A539A568C93A89D6973 /* Mediator+BusinessModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mediator+BusinessModule-dummy.m"; sourceTree = "<group>"; };
+		C50D1737EF68EC95F91D0A362078F5EC /* BasicComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BasicComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBED8F61726EA82E4EA32FE970B9696E /* Mediator+BusinessModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mediator+BusinessModule-prefix.pch"; sourceTree = "<group>"; };
+		F4661FC873DD5FD2287137E4C0F1C12A /* Mediator+MeModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Mediator+MeModule.swift"; path = "Mediator+BusinessModule/Mediator+MeModule.swift"; sourceTree = "<group>"; };
+		FF38F4C29CB5FE19BC37970C54B37D0D /* Mediator+MomentModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Mediator+MomentModule.swift"; path = "Mediator+BusinessModule/Mediator+MomentModule.swift"; sourceTree = "<group>"; };
+		FF93E58A8D532F103E4ECABF0CB3CB50 /* Mediator+HomeModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Mediator+HomeModule.swift"; path = "Mediator+BusinessModule/Mediator+HomeModule.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D549916990E4E27C53E56B228D60E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B622F75DAE892E3C592809F74794C30B /* BasicComponents.framework in Frameworks */,
+				1013C4A524FF2F6F7ABCEFA38B98DB2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F23B35E3BD7577D81BB135001DBF36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C50D1737EF68EC95F91D0A362078F5EC /* BasicComponents.framework */,
+				33CADF7979A4A5154A235E818EEEFADC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B958815A9AD2FBE94720C1A3AE16AF8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				854B6FD544FA122EBFBF0121B768FDCB /* Mediator+BusinessModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		33CADF7979A4A5154A235E818EEEFADC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2CC214AE0532BD398E1D252141E42DF5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7D64AE9E8D6A4B72724C5B1267E966D6 /* Mediator+BusinessModule */ = {
+			isa = PBXGroup;
+			children = (
+				FF93E58A8D532F103E4ECABF0CB3CB50 /* Mediator+HomeModule.swift */,
+				F4661FC873DD5FD2287137E4C0F1C12A /* Mediator+MeModule.swift */,
+				FF38F4C29CB5FE19BC37970C54B37D0D /* Mediator+MomentModule.swift */,
+				0BDA9E16274F507E9064C91928F49748 /* Mediator+RoomModule.swift */,
+				1B958815A9AD2FBE94720C1A3AE16AF8 /* Pod */,
+				80D54AED347880C05A31C56A3B96264E /* Support Files */,
+			);
+			name = "Mediator+BusinessModule";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		80D54AED347880C05A31C56A3B96264E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42EF0E194AE11B893175F4F742A69796 /* Mediator+BusinessModule.modulemap */,
+				B84D231993121A539A568C93A89D6973 /* Mediator+BusinessModule-dummy.m */,
+				832B5146366DBC9CA514DFFE6FD5AD66 /* Mediator+BusinessModule-Info.plist */,
+				CBED8F61726EA82E4EA32FE970B9696E /* Mediator+BusinessModule-prefix.pch */,
+				72EFCF7992DA5DF66F2F93278A5D3BE0 /* Mediator+BusinessModule-umbrella.h */,
+				4AE1A0E89C04781E5B62254F771C411E /* Mediator+BusinessModule.debug.xcconfig */,
+				067E2EA125DB84A1C87F5537B04FD65C /* Mediator+BusinessModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/Mediator+BusinessModule";
+			sourceTree = "<group>";
+		};
+		ADBFFAD630E2B282EFEBA154B3EBD9D9 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				9B642EDEE1FA6B219585059478B984A9 /* BasicComponents */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		BA8AD16E1DE72D5B42D36B82F29143C2 = {
+			isa = PBXGroup;
+			children = (
+				ADBFFAD630E2B282EFEBA154B3EBD9D9 /* Dependencies */,
+				05F23B35E3BD7577D81BB135001DBF36 /* Frameworks */,
+				7D64AE9E8D6A4B72724C5B1267E966D6 /* Mediator+BusinessModule */,
+				E29AC86722DF5158CE5D57A3FC136B14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E29AC86722DF5158CE5D57A3FC136B14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				787EAAF2508338A1CCD3DF5F7F5BC0BB /* Mediator_BusinessModule.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		71AE3C13ABD7849557E0F478410619D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531E363C1D7BE2C67CAD5A2593BB1E94 /* Mediator+BusinessModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C93C2639875B3A100CA30852B11AC647 /* Mediator+BusinessModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7B890AB3D37AC09E35584269E8DBEF6 /* Build configuration list for PBXNativeTarget "Mediator+BusinessModule" */;
+			buildPhases = (
+				71AE3C13ABD7849557E0F478410619D6 /* Headers */,
+				7FAF36DD287CF606A44350019397B65D /* Sources */,
+				2D549916990E4E27C53E56B228D60E9A /* Frameworks */,
+				5962026DD7341BB612FDC9423F49650C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C24F9D49A1EEE9C029CE70108C940F51 /* PBXTargetDependency */,
+			);
+			name = "Mediator+BusinessModule";
+			productName = "Mediator+BusinessModule";
+			productReference = 787EAAF2508338A1CCD3DF5F7F5BC0BB /* Mediator_BusinessModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A997FF5796BFBF7C4B6D1AE0746BFBF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 1C3636131AC9D5418E04A2E33E5C02DE /* Build configuration list for PBXProject "Mediator+BusinessModule" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA8AD16E1DE72D5B42D36B82F29143C2;
+			productRefGroup = E29AC86722DF5158CE5D57A3FC136B14 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 9B642EDEE1FA6B219585059478B984A9 /* BasicComponents */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C93C2639875B3A100CA30852B11AC647 /* Mediator+BusinessModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5962026DD7341BB612FDC9423F49650C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FAF36DD287CF606A44350019397B65D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75C71FE338387DA775BE0F18088C911 /* Mediator+BusinessModule-dummy.m in Sources */,
+				B77F26B0E1C4F0C549C8A8BDD1BFFAE4 /* Mediator+HomeModule.swift in Sources */,
+				D8E809373B57845FA25954DFE70F57D8 /* Mediator+MeModule.swift in Sources */,
+				BC6A432FA7015EFF8C92AFB1A30BDD28 /* Mediator+MomentModule.swift in Sources */,
+				C78D21EB31BB7E07631070D1DAAA600D /* Mediator+RoomModule.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C24F9D49A1EEE9C029CE70108C940F51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BasicComponents;
+			targetProxy = 68C5341A5EE6AF1566D4667A91C0EA88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B49A6822FB71CA9F896F56755F8CAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		87487234D77EFBA49D879EB61882E82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 067E2EA125DB84A1C87F5537B04FD65C /* Mediator+BusinessModule.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mediator+BusinessModule/Mediator+BusinessModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mediator+BusinessModule/Mediator+BusinessModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Mediator+BusinessModule/Mediator+BusinessModule.modulemap";
+				PRODUCT_MODULE_NAME = Mediator_BusinessModule;
+				PRODUCT_NAME = Mediator_BusinessModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		943C8D6738DCD0921E2838D5DB396C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA65E4047415F5A55C4C2D814F4F6949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AE1A0E89C04781E5B62254F771C411E /* Mediator+BusinessModule.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mediator+BusinessModule/Mediator+BusinessModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mediator+BusinessModule/Mediator+BusinessModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Mediator+BusinessModule/Mediator+BusinessModule.modulemap";
+				PRODUCT_MODULE_NAME = Mediator_BusinessModule;
+				PRODUCT_NAME = Mediator_BusinessModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C3636131AC9D5418E04A2E33E5C02DE /* Build configuration list for PBXProject "Mediator+BusinessModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943C8D6738DCD0921E2838D5DB396C9F /* Debug */,
+				3B49A6822FB71CA9F896F56755F8CAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7B890AB3D37AC09E35584269E8DBEF6 /* Build configuration list for PBXNativeTarget "Mediator+BusinessModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA65E4047415F5A55C4C2D814F4F6949 /* Debug */,
+				87487234D77EFBA49D879EB61882E82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A997FF5796BFBF7C4B6D1AE0746BFBF5 /* Project object */;
+}

@@ -1,0 +1,63 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  BasicComponents:
+    BUILD_SETTINGS_CHECKSUM:
+      BasicComponents:
+        :debug: ac0e8e88a69a586639cf98f5447c3d01
+        :release: ac0e8e88a69a586639cf98f5447c3d01
+    CHECKSUM: abe4938b6f850798e119c0edfa5a40d07fce9bca
+    FILES:
+      - "../BasicComponents/Mediator/Mediator.swift"
+      - "../BasicComponents/UnfairLock/UnfairLock.swift"
+    PROJECT_NAME: BasicComponents
+    SPECS:
+      - BasicComponents (0.1.0)
+      - BasicComponents/Mediator (0.1.0)
+      - BasicComponents/UnfairLock (0.1.0)
+  BusinessModule:
+    BUILD_SETTINGS_CHECKSUM:
+      BusinessModule:
+        :debug: f3c974014000223fda05055577cf7ed5
+        :release: f3c974014000223fda05055577cf7ed5
+    CHECKSUM: ff011b4db7f456a4da5245d2398be5f69e7a4fed
+    FILES:
+      - "../BusinessModule/HomeModule/HomeViewController.swift"
+      - "../BusinessModule/HomeModule/Target_HomeModule.swift"
+      - "../BusinessModule/MeModule/MeViewController.swift"
+      - "../BusinessModule/MeModule/Target_MeModule.swift"
+      - "../BusinessModule/MomentModule/MomentViewController.swift"
+      - "../BusinessModule/MomentModule/Target_MomentModule.swift"
+      - "../BusinessModule/RoomModule/RoomViewController.swift"
+      - "../BusinessModule/RoomModule/Target_RoomModule.swift"
+      - "../BusinessModule/RootModule/RootTabBarController.swift"
+    PROJECT_NAME: BusinessModule
+    SPECS:
+      - BusinessModule (0.1.0)
+      - BusinessModule/HomeModule (0.1.0)
+      - BusinessModule/MeModule (0.1.0)
+      - BusinessModule/MomentModule (0.1.0)
+      - BusinessModule/RoomModule (0.1.0)
+      - BusinessModule/RootModule (0.1.0)
+  "Mediator+BusinessModule":
+    BUILD_SETTINGS_CHECKSUM:
+      "Mediator+BusinessModule":
+        :debug: ec31103bf1ca036b1e04dba6bc697120
+        :release: ec31103bf1ca036b1e04dba6bc697120
+    CHECKSUM: 3350d0722728182cdf7fa7995ebfcaa7eb85e55d
+    FILES:
+      - "../Mediator+BusinessModule/Mediator+HomeModule.swift"
+      - "../Mediator+BusinessModule/Mediator+MeModule.swift"
+      - "../Mediator+BusinessModule/Mediator+MomentModule.swift"
+      - "../Mediator+BusinessModule/Mediator+RoomModule.swift"
+    PROJECT_NAME: "Mediator+BusinessModule"
+    SPECS:
+      - "Mediator+BusinessModule (0.1.0)"
+  Pods-Mediator-Mediator:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 1bf8c6f8ae716c0ad2cb6e6837f31010
+      Release: 1bf8c6f8ae716c0ad2cb6e6837f31010
+OBJECT_VERSION: 51
+PLUGINS:
+  {}
