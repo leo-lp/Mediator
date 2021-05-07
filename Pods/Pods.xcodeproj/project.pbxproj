@@ -13,26 +13,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5781B4F69AB20AEDDA899FF0FB22704A /* PBXContainerItemProxy */ = {
+		19EFB42B3C29A7D7B79E8561DC9F0886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61752D3886FAE2530ED1808AD5ADCCD5 /* BusinessModule.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 50E0394BE82C71F693956129F55CF86A;
+			remoteInfo = BusinessModule;
+		};
+		4A74B8F8D1BD9453A4A97DCF85C4D493 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7B03B5A363514FF04CB3985413F07561 /* BasicComponents.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 7CDE94A4956E0702D0F9661EEDCF078C;
 			remoteInfo = BasicComponents;
 		};
-		BFCC6ACF52A635991B23DD1E757DC9A6 /* PBXContainerItemProxy */ = {
+		4B287BF8F0E42EA52F67BF4583F88C82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 40A418FBF5D48A02065024596107916B /* Mediator+BusinessModule.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = C93C2639875B3A100CA30852B11AC647;
 			remoteInfo = "Mediator+BusinessModule";
-		};
-		C90FB52B2921A5D9E6A0B8559EC63098 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 61752D3886FAE2530ED1808AD5ADCCD5 /* BusinessModule.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 50E0394BE82C71F693956129F55CF86A;
-			remoteInfo = BusinessModule;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -162,9 +162,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				3DB2D61A16DDE7387929EEFEA34E34A5 /* PBXTargetDependency */,
-				682F49EFA1D290E40FE657602976A673 /* PBXTargetDependency */,
-				1419E6C4780A01D18FD1020E67D68FA0 /* PBXTargetDependency */,
+				6A82CD458A5BA1AC73A1D4DA3A65283E /* PBXTargetDependency */,
+				2AB3C42CAA021D44C933A551ABD038CD /* PBXTargetDependency */,
+				C6A0891D4989E3E4534787F0D3BEEF76 /* PBXTargetDependency */,
 			);
 			name = "Pods-Mediator-Mediator";
 			productName = "Pods-Mediator-Mediator";
@@ -231,20 +231,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1419E6C4780A01D18FD1020E67D68FA0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Mediator+BusinessModule";
-			targetProxy = BFCC6ACF52A635991B23DD1E757DC9A6 /* PBXContainerItemProxy */;
-		};
-		3DB2D61A16DDE7387929EEFEA34E34A5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BasicComponents;
-			targetProxy = 5781B4F69AB20AEDDA899FF0FB22704A /* PBXContainerItemProxy */;
-		};
-		682F49EFA1D290E40FE657602976A673 /* PBXTargetDependency */ = {
+		2AB3C42CAA021D44C933A551ABD038CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BusinessModule;
-			targetProxy = C90FB52B2921A5D9E6A0B8559EC63098 /* PBXContainerItemProxy */;
+			targetProxy = 19EFB42B3C29A7D7B79E8561DC9F0886 /* PBXContainerItemProxy */;
+		};
+		6A82CD458A5BA1AC73A1D4DA3A65283E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BasicComponents;
+			targetProxy = 4A74B8F8D1BD9453A4A97DCF85C4D493 /* PBXContainerItemProxy */;
+		};
+		C6A0891D4989E3E4534787F0D3BEEF76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Mediator+BusinessModule";
+			targetProxy = 4B287BF8F0E42EA52F67BF4583F88C82 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

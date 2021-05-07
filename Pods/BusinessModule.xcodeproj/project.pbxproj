@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27777F2236CF244871B42E958C100828 /* BusinessModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EFAC718D929609CB3D2E28E80C8BDD5 /* BusinessModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		284A97720E626752C17F75D633FF3F26 /* BusinessModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1821158FBA521153A7665F022B0835 /* BusinessModule-dummy.m */; };
-		361AEE95B530257F48F9806104AD2C9A /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2DB38A8B6A33DE6555721209179106 /* MeViewController.swift */; };
+		27777F2236CF244871B42E958C100828 /* BusinessModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54AA522DDCDA0FB5A77E15071FCA4667 /* BusinessModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		284A97720E626752C17F75D633FF3F26 /* BusinessModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC8157FF550D7251D5CE9B082EEC77B /* BusinessModule-dummy.m */; };
+		361AEE95B530257F48F9806104AD2C9A /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368DA18685A753BE11A864ED33E73BF9 /* MeViewController.swift */; };
 		37C5D5B99B0036C312C75610E988CF43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FEBBBF721BCDE75AA87A64AC03E5E2 /* Foundation.framework */; };
-		37FEA2A1242685A49F814BA6BF097F4C /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ED478A1C27FE422151FDC5A99A4675 /* RoomViewController.swift */; };
-		5D9B17D77D6550FA6F89DDB112A2885F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56BACCFA7AA8F20FBE457AAC3DFBD4E /* HomeViewController.swift */; };
-		619401FA0DF31329BE9BD87E4922A46D /* Target_MeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E568671ADBF8741D1B95DC0853D5E727 /* Target_MeModule.swift */; };
-		6B69B88662173661D7B26815F9D5E76D /* MomentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750366A82090CA5835B4E16F9F3C33C8 /* MomentViewController.swift */; };
+		37FEA2A1242685A49F814BA6BF097F4C /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE021E3F83F31BC93AEFC435F483590B /* RoomViewController.swift */; };
+		5D9B17D77D6550FA6F89DDB112A2885F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737B1B871B7988D2F42BA94254135A4F /* HomeViewController.swift */; };
+		619401FA0DF31329BE9BD87E4922A46D /* Target_MeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13885F44F9A3C3632FD85AC711DA782B /* Target_MeModule.swift */; };
+		6B69B88662173661D7B26815F9D5E76D /* MomentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22273A1A9BA46C5AF26955E517C812E /* MomentViewController.swift */; };
 		6BB6449FB8F9BAF2D2C86C13F27AE446 /* Mediator_BusinessModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A861EDC6167F3AAE85BA796D909C99 /* Mediator_BusinessModule.framework */; };
-		6FAA8987DFB160A2CCF8EEDF83CFF52B /* Target_HomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9AF60A25796B818B25FD9559C8E04 /* Target_HomeModule.swift */; };
-		7744A91A660EB07A3D6C7F6D1FF38414 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DB73EFA12B45D948323F8C167BCFAF /* RootTabBarController.swift */; };
-		8DE973F9944FD835E7C24D6266894E0C /* Target_RoomModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBABD0BFE6E1B28C1C2577635E6992BF /* Target_RoomModule.swift */; };
-		92A9F73C54AF8F32C1F0C4B272B0CEA5 /* Target_MomentModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E620D1CD38B6D3C3181E7FCE749146 /* Target_MomentModule.swift */; };
+		6FAA8987DFB160A2CCF8EEDF83CFF52B /* Target_HomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4D845928F22A69783A69CC5AF999E /* Target_HomeModule.swift */; };
+		7744A91A660EB07A3D6C7F6D1FF38414 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DEEDF92C07BB0027E0DDAE421975D /* RootTabBarController.swift */; };
+		8DE973F9944FD835E7C24D6266894E0C /* Target_RoomModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C8A7365342B0E7F9F8C7FFA46F279 /* Target_RoomModule.swift */; };
+		92A9F73C54AF8F32C1F0C4B272B0CEA5 /* Target_MomentModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38FB9056BECC7D138FB7713EF6DD842 /* Target_MomentModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B4131E895B0F4A36C5F7747C5E22BBD5 /* PBXContainerItemProxy */ = {
+		37B92816F4D6D7552B773F78D35D3145 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D872B9101D2BE75D61FB7C582789ADF3 /* Mediator+BusinessModule.xcodeproj */;
 			proxyType = 1;
@@ -33,27 +33,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		190EDECD7687317F408F3B1A07486852 /* BusinessModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BusinessModule-Info.plist"; sourceTree = "<group>"; };
-		2219290E923449805DA3B221F80BA32F /* BusinessModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BusinessModule.debug.xcconfig; sourceTree = "<group>"; };
+		13885F44F9A3C3632FD85AC711DA782B /* Target_MeModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_MeModule.swift; path = BusinessModule/MeModule/Target_MeModule.swift; sourceTree = "<group>"; };
+		1A2F2F5B45CB0D950A3E983FCB1325BE /* BusinessModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BusinessModule.modulemap; sourceTree = "<group>"; };
+		1EE80658778F1A6C89AE5FDFAC61EC68 /* BusinessModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BusinessModule.release.xcconfig; sourceTree = "<group>"; };
+		216FE55E062070140FD7ACDD66416C8F /* BusinessModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BusinessModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		26A861EDC6167F3AAE85BA796D909C99 /* Mediator_BusinessModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mediator_BusinessModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FEBBBF721BCDE75AA87A64AC03E5E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2C12D5555D0F50FC9F34DDB271640592 /* BusinessModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BusinessModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2E4C14AF4243C3E6E074A4AE8B944A19 /* BusinessModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BusinessModule-prefix.pch"; sourceTree = "<group>"; };
-		33DB73EFA12B45D948323F8C167BCFAF /* RootTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RootTabBarController.swift; path = BusinessModule/RootModule/RootTabBarController.swift; sourceTree = "<group>"; };
-		3F2674132DE3474D6B13130C4B82E7BF /* BusinessModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BusinessModule.modulemap; sourceTree = "<group>"; };
-		43ED478A1C27FE422151FDC5A99A4675 /* RoomViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoomViewController.swift; path = BusinessModule/RoomModule/RoomViewController.swift; sourceTree = "<group>"; };
+		368DA18685A753BE11A864ED33E73BF9 /* MeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MeViewController.swift; path = BusinessModule/MeModule/MeViewController.swift; sourceTree = "<group>"; };
+		54AA522DDCDA0FB5A77E15071FCA4667 /* BusinessModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BusinessModule-umbrella.h"; sourceTree = "<group>"; };
+		6418052F987418FD488B0070770D346B /* BusinessModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BusinessModule.debug.xcconfig; sourceTree = "<group>"; };
 		6653C229002F9F7DB804265F6C59750B /* BusinessModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BusinessModule.framework; path = BusinessModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		750366A82090CA5835B4E16F9F3C33C8 /* MomentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MomentViewController.swift; path = BusinessModule/MomentModule/MomentViewController.swift; sourceTree = "<group>"; };
-		88B9AF60A25796B818B25FD9559C8E04 /* Target_HomeModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_HomeModule.swift; path = BusinessModule/HomeModule/Target_HomeModule.swift; sourceTree = "<group>"; };
-		8A2DB38A8B6A33DE6555721209179106 /* MeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MeViewController.swift; path = BusinessModule/MeModule/MeViewController.swift; sourceTree = "<group>"; };
-		9EFAC718D929609CB3D2E28E80C8BDD5 /* BusinessModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BusinessModule-umbrella.h"; sourceTree = "<group>"; };
-		A8E620D1CD38B6D3C3181E7FCE749146 /* Target_MomentModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_MomentModule.swift; path = BusinessModule/MomentModule/Target_MomentModule.swift; sourceTree = "<group>"; };
-		BE4A6EEB85C5E5435F9B9C8C1EA964CA /* BusinessModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BusinessModule.release.xcconfig; sourceTree = "<group>"; };
-		CE1821158FBA521153A7665F022B0835 /* BusinessModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BusinessModule-dummy.m"; sourceTree = "<group>"; };
+		72E803803B23CF22031EDEA8099F1217 /* BusinessModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BusinessModule-Info.plist"; sourceTree = "<group>"; };
+		737B1B871B7988D2F42BA94254135A4F /* HomeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = BusinessModule/HomeModule/HomeViewController.swift; sourceTree = "<group>"; };
+		910DEEDF92C07BB0027E0DDAE421975D /* RootTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RootTabBarController.swift; path = BusinessModule/RootModule/RootTabBarController.swift; sourceTree = "<group>"; };
+		9795FBD2E5A9A3BDA0B673126DF685F3 /* BusinessModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BusinessModule-prefix.pch"; sourceTree = "<group>"; };
+		9CC8157FF550D7251D5CE9B082EEC77B /* BusinessModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BusinessModule-dummy.m"; sourceTree = "<group>"; };
+		A59A9D3015B8ABA20413037E349788B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C22273A1A9BA46C5AF26955E517C812E /* MomentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MomentViewController.swift; path = BusinessModule/MomentModule/MomentViewController.swift; sourceTree = "<group>"; };
+		CE021E3F83F31BC93AEFC435F483590B /* RoomViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoomViewController.swift; path = BusinessModule/RoomModule/RoomViewController.swift; sourceTree = "<group>"; };
+		CEF4D845928F22A69783A69CC5AF999E /* Target_HomeModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_HomeModule.swift; path = BusinessModule/HomeModule/Target_HomeModule.swift; sourceTree = "<group>"; };
 		D872B9101D2BE75D61FB7C582789ADF3 /* Mediator+BusinessModule */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Mediator+BusinessModule"; path = "Mediator+BusinessModule.xcodeproj"; sourceTree = "<group>"; };
-		DBABD0BFE6E1B28C1C2577635E6992BF /* Target_RoomModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_RoomModule.swift; path = BusinessModule/RoomModule/Target_RoomModule.swift; sourceTree = "<group>"; };
-		E568671ADBF8741D1B95DC0853D5E727 /* Target_MeModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_MeModule.swift; path = BusinessModule/MeModule/Target_MeModule.swift; sourceTree = "<group>"; };
-		E56BACCFA7AA8F20FBE457AAC3DFBD4E /* HomeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = BusinessModule/HomeModule/HomeViewController.swift; sourceTree = "<group>"; };
+		DB5C8A7365342B0E7F9F8C7FFA46F279 /* Target_RoomModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_RoomModule.swift; path = BusinessModule/RoomModule/Target_RoomModule.swift; sourceTree = "<group>"; };
+		E38FB9056BECC7D138FB7713EF6DD842 /* Target_MomentModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_MomentModule.swift; path = BusinessModule/MomentModule/Target_MomentModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,22 +70,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5C6DCE9F77CF238B63E102E4954FA7A8 /* MomentModule */ = {
+		177DF2784D3E98DEF139E0F4066A315B /* RoomModule */ = {
 			isa = PBXGroup;
 			children = (
-				750366A82090CA5835B4E16F9F3C33C8 /* MomentViewController.swift */,
-				A8E620D1CD38B6D3C3181E7FCE749146 /* Target_MomentModule.swift */,
+				CE021E3F83F31BC93AEFC435F483590B /* RoomViewController.swift */,
+				DB5C8A7365342B0E7F9F8C7FFA46F279 /* Target_RoomModule.swift */,
 			);
-			name = MomentModule;
+			name = RoomModule;
 			sourceTree = "<group>";
 		};
-		8ECB891E49BD84C578151E4821F95E55 /* MeModule */ = {
+		184F9ACC0394604F039E71D9621DAD3C /* MeModule */ = {
 			isa = PBXGroup;
 			children = (
-				8A2DB38A8B6A33DE6555721209179106 /* MeViewController.swift */,
-				E568671ADBF8741D1B95DC0853D5E727 /* Target_MeModule.swift */,
+				368DA18685A753BE11A864ED33E73BF9 /* MeViewController.swift */,
+				13885F44F9A3C3632FD85AC711DA782B /* Target_MeModule.swift */,
 			);
 			name = MeModule;
+			sourceTree = "<group>";
+		};
+		2C8134AF2AD63A42A03842B946A02742 /* BusinessModule */ = {
+			isa = PBXGroup;
+			children = (
+				4C7A5238DDE2BE7F4B21CA4B801290AC /* HomeModule */,
+				184F9ACC0394604F039E71D9621DAD3C /* MeModule */,
+				993BA5FA998B80D6C5EE91AF0AA659D5 /* MomentModule */,
+				D64BC2E2944D58D122F2180ED5F87953 /* Pod */,
+				177DF2784D3E98DEF139E0F4066A315B /* RoomModule */,
+				3A92668A0DE2031D85D3DF189FDDC205 /* RootModule */,
+				8D5A0197C62984490F99E07D553A779C /* Support Files */,
+			);
+			name = BusinessModule;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3A92668A0DE2031D85D3DF189FDDC205 /* RootModule */ = {
+			isa = PBXGroup;
+			children = (
+				910DEEDF92C07BB0027E0DDAE421975D /* RootTabBarController.swift */,
+			);
+			name = RootModule;
+			sourceTree = "<group>";
+		};
+		4C7A5238DDE2BE7F4B21CA4B801290AC /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				737B1B871B7988D2F42BA94254135A4F /* HomeViewController.swift */,
+				CEF4D845928F22A69783A69CC5AF999E /* Target_HomeModule.swift */,
+			);
+			name = HomeModule;
+			sourceTree = "<group>";
+		};
+		8D5A0197C62984490F99E07D553A779C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A2F2F5B45CB0D950A3E983FCB1325BE /* BusinessModule.modulemap */,
+				9CC8157FF550D7251D5CE9B082EEC77B /* BusinessModule-dummy.m */,
+				72E803803B23CF22031EDEA8099F1217 /* BusinessModule-Info.plist */,
+				9795FBD2E5A9A3BDA0B673126DF685F3 /* BusinessModule-prefix.pch */,
+				54AA522DDCDA0FB5A77E15071FCA4667 /* BusinessModule-umbrella.h */,
+				6418052F987418FD488B0070770D346B /* BusinessModule.debug.xcconfig */,
+				1EE80658778F1A6C89AE5FDFAC61EC68 /* BusinessModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/BusinessModule";
+			sourceTree = "<group>";
+		};
+		993BA5FA998B80D6C5EE91AF0AA659D5 /* MomentModule */ = {
+			isa = PBXGroup;
+			children = (
+				C22273A1A9BA46C5AF26955E517C812E /* MomentViewController.swift */,
+				E38FB9056BECC7D138FB7713EF6DD842 /* Target_MomentModule.swift */,
+			);
+			name = MomentModule;
 			sourceTree = "<group>";
 		};
 		A15928436FF6DE9F6BE3E9381E54C3CE /* Products */ = {
@@ -93,14 +150,6 @@
 				6653C229002F9F7DB804265F6C59750B /* BusinessModule.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A25383A989E8BB52B8DB1F2DBF5EE1CE /* RootModule */ = {
-			isa = PBXGroup;
-			children = (
-				33DB73EFA12B45D948323F8C167BCFAF /* RootTabBarController.swift */,
-			);
-			name = RootModule;
 			sourceTree = "<group>";
 		};
 		A2F7EB4ABF94BE8A97A2A75307F18ED6 /* iOS */ = {
@@ -114,7 +163,7 @@
 		B89C54E5B20BC6ADB9DD7A57D74CC409 = {
 			isa = PBXGroup;
 			children = (
-				DB79D6DFE62ACCF8180A21BEBF5ADCB4 /* BusinessModule */,
+				2C8134AF2AD63A42A03842B946A02742 /* BusinessModule */,
 				D8A1A697EDF3C13AE0C89F5C0873E4DA /* Dependencies */,
 				BC81166FE51BBFE5F2F374B0D427E08D /* Frameworks */,
 				A15928436FF6DE9F6BE3E9381E54C3CE /* Products */,
@@ -130,21 +179,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D1F67FCF1BB733A7F7B8EEA3D67F04DA /* Pod */ = {
+		D64BC2E2944D58D122F2180ED5F87953 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2C12D5555D0F50FC9F34DDB271640592 /* BusinessModule.podspec */,
+				216FE55E062070140FD7ACDD66416C8F /* BusinessModule.podspec */,
+				A59A9D3015B8ABA20413037E349788B4 /* LICENSE */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		D715E4EE10BDB442598473D7AA9BA68C /* HomeModule */ = {
-			isa = PBXGroup;
-			children = (
-				E56BACCFA7AA8F20FBE457AAC3DFBD4E /* HomeViewController.swift */,
-				88B9AF60A25796B818B25FD9559C8E04 /* Target_HomeModule.swift */,
-			);
-			name = HomeModule;
 			sourceTree = "<group>";
 		};
 		D8A1A697EDF3C13AE0C89F5C0873E4DA /* Dependencies */ = {
@@ -153,45 +194,6 @@
 				D872B9101D2BE75D61FB7C582789ADF3 /* Mediator+BusinessModule */,
 			);
 			name = Dependencies;
-			sourceTree = "<group>";
-		};
-		DA5111CC19036863CC3E95ADF9C70ACE /* RoomModule */ = {
-			isa = PBXGroup;
-			children = (
-				43ED478A1C27FE422151FDC5A99A4675 /* RoomViewController.swift */,
-				DBABD0BFE6E1B28C1C2577635E6992BF /* Target_RoomModule.swift */,
-			);
-			name = RoomModule;
-			sourceTree = "<group>";
-		};
-		DB79D6DFE62ACCF8180A21BEBF5ADCB4 /* BusinessModule */ = {
-			isa = PBXGroup;
-			children = (
-				D715E4EE10BDB442598473D7AA9BA68C /* HomeModule */,
-				8ECB891E49BD84C578151E4821F95E55 /* MeModule */,
-				5C6DCE9F77CF238B63E102E4954FA7A8 /* MomentModule */,
-				D1F67FCF1BB733A7F7B8EEA3D67F04DA /* Pod */,
-				DA5111CC19036863CC3E95ADF9C70ACE /* RoomModule */,
-				A25383A989E8BB52B8DB1F2DBF5EE1CE /* RootModule */,
-				F58055623C0B747D4E18F4F16E86F1AE /* Support Files */,
-			);
-			name = BusinessModule;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		F58055623C0B747D4E18F4F16E86F1AE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3F2674132DE3474D6B13130C4B82E7BF /* BusinessModule.modulemap */,
-				CE1821158FBA521153A7665F022B0835 /* BusinessModule-dummy.m */,
-				190EDECD7687317F408F3B1A07486852 /* BusinessModule-Info.plist */,
-				2E4C14AF4243C3E6E074A4AE8B944A19 /* BusinessModule-prefix.pch */,
-				9EFAC718D929609CB3D2E28E80C8BDD5 /* BusinessModule-umbrella.h */,
-				2219290E923449805DA3B221F80BA32F /* BusinessModule.debug.xcconfig */,
-				BE4A6EEB85C5E5435F9B9C8C1EA964CA /* BusinessModule.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/BusinessModule";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +222,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9EBEC9BC0620C18FE1D8D7DF55B6E7B9 /* PBXTargetDependency */,
+				3667A52636522B63599F535962DAA6D3 /* PBXTargetDependency */,
 			);
 			name = BusinessModule;
 			productName = BusinessModule;
@@ -290,10 +292,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9EBEC9BC0620C18FE1D8D7DF55B6E7B9 /* PBXTargetDependency */ = {
+		3667A52636522B63599F535962DAA6D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Mediator+BusinessModule";
-			targetProxy = B4131E895B0F4A36C5F7747C5E22BBD5 /* PBXContainerItemProxy */;
+			targetProxy = 37B92816F4D6D7552B773F78D35D3145 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -428,7 +430,7 @@
 		};
 		6E45895D0A622430080F7EFFB43DC1C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE4A6EEB85C5E5435F9B9C8C1EA964CA /* BusinessModule.release.xcconfig */;
+			baseConfigurationReference = 1EE80658778F1A6C89AE5FDFAC61EC68 /* BusinessModule.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -464,7 +466,7 @@
 		};
 		FC20499B6D76FA35915A9CBB5B6BF2EB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2219290E923449805DA3B221F80BA32F /* BusinessModule.debug.xcconfig */;
+			baseConfigurationReference = 6418052F987418FD488B0070770D346B /* BusinessModule.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

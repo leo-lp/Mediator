@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		1013C4A524FF2F6F7ABCEFA38B98DB2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC214AE0532BD398E1D252141E42DF5 /* Foundation.framework */; };
-		531E363C1D7BE2C67CAD5A2593BB1E94 /* Mediator+BusinessModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EFCF7992DA5DF66F2F93278A5D3BE0 /* Mediator+BusinessModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		531E363C1D7BE2C67CAD5A2593BB1E94 /* Mediator+BusinessModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D50CE70220ADC52B6E9F59B49DB291 /* Mediator+BusinessModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B622F75DAE892E3C592809F74794C30B /* BasicComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C50D1737EF68EC95F91D0A362078F5EC /* BasicComponents.framework */; };
-		B77F26B0E1C4F0C549C8A8BDD1BFFAE4 /* Mediator+HomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF93E58A8D532F103E4ECABF0CB3CB50 /* Mediator+HomeModule.swift */; };
-		BC6A432FA7015EFF8C92AFB1A30BDD28 /* Mediator+MomentModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38F4C29CB5FE19BC37970C54B37D0D /* Mediator+MomentModule.swift */; };
-		C75C71FE338387DA775BE0F18088C911 /* Mediator+BusinessModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B84D231993121A539A568C93A89D6973 /* Mediator+BusinessModule-dummy.m */; };
-		C78D21EB31BB7E07631070D1DAAA600D /* Mediator+RoomModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDA9E16274F507E9064C91928F49748 /* Mediator+RoomModule.swift */; };
-		D8E809373B57845FA25954DFE70F57D8 /* Mediator+MeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4661FC873DD5FD2287137E4C0F1C12A /* Mediator+MeModule.swift */; };
+		B77F26B0E1C4F0C549C8A8BDD1BFFAE4 /* Mediator+HomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDA317155670CD6FAF8E5BEB56FDBD9 /* Mediator+HomeModule.swift */; };
+		BC6A432FA7015EFF8C92AFB1A30BDD28 /* Mediator+MomentModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC6956C1C751BBEF379EE77DD1F9A32 /* Mediator+MomentModule.swift */; };
+		C75C71FE338387DA775BE0F18088C911 /* Mediator+BusinessModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AEE6631CB1C23819F4C54B7CA6B90E /* Mediator+BusinessModule-dummy.m */; };
+		C78D21EB31BB7E07631070D1DAAA600D /* Mediator+RoomModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673EA4A92BA38209C9992876BB452E9 /* Mediator+RoomModule.swift */; };
+		D8E809373B57845FA25954DFE70F57D8 /* Mediator+MeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90029D7F6507EF559328917BE19E0197 /* Mediator+MeModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		68C5341A5EE6AF1566D4667A91C0EA88 /* PBXContainerItemProxy */ = {
+		4220028A5E6F0BACF4C7062EFE29738D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9B642EDEE1FA6B219585059478B984A9 /* BasicComponents.xcodeproj */;
 			proxyType = 1;
@@ -28,22 +28,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		067E2EA125DB84A1C87F5537B04FD65C /* Mediator+BusinessModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mediator+BusinessModule.release.xcconfig"; sourceTree = "<group>"; };
-		0BDA9E16274F507E9064C91928F49748 /* Mediator+RoomModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Mediator+RoomModule.swift"; path = "Mediator+BusinessModule/Mediator+RoomModule.swift"; sourceTree = "<group>"; };
 		2CC214AE0532BD398E1D252141E42DF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		42EF0E194AE11B893175F4F742A69796 /* Mediator+BusinessModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Mediator+BusinessModule.modulemap"; sourceTree = "<group>"; };
-		4AE1A0E89C04781E5B62254F771C411E /* Mediator+BusinessModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mediator+BusinessModule.debug.xcconfig"; sourceTree = "<group>"; };
-		72EFCF7992DA5DF66F2F93278A5D3BE0 /* Mediator+BusinessModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mediator+BusinessModule-umbrella.h"; sourceTree = "<group>"; };
+		4673EA4A92BA38209C9992876BB452E9 /* Mediator+RoomModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Mediator+RoomModule.swift"; path = "Mediator+BusinessModule/Mediator+RoomModule.swift"; sourceTree = "<group>"; };
+		4914AEB0B22CA5DAD346220024878944 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4CB4FC84BB45D9B491DE0BE542F57841 /* Mediator+BusinessModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mediator+BusinessModule.debug.xcconfig"; sourceTree = "<group>"; };
+		5671392E565164192661A35A4CB6E54E /* Mediator+BusinessModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mediator+BusinessModule-prefix.pch"; sourceTree = "<group>"; };
+		5B42E68584429F57D812D5C27C073B14 /* Mediator+BusinessModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Mediator+BusinessModule.modulemap"; sourceTree = "<group>"; };
+		72D50CE70220ADC52B6E9F59B49DB291 /* Mediator+BusinessModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mediator+BusinessModule-umbrella.h"; sourceTree = "<group>"; };
+		74AEE6631CB1C23819F4C54B7CA6B90E /* Mediator+BusinessModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mediator+BusinessModule-dummy.m"; sourceTree = "<group>"; };
+		74E7D77AA9BB302DDD65A4F51B62695F /* Mediator+BusinessModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "Mediator+BusinessModule.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		787EAAF2508338A1CCD3DF5F7F5BC0BB /* Mediator_BusinessModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mediator_BusinessModule.framework; path = "Mediator+BusinessModule.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		832B5146366DBC9CA514DFFE6FD5AD66 /* Mediator+BusinessModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mediator+BusinessModule-Info.plist"; sourceTree = "<group>"; };
-		854B6FD544FA122EBFBF0121B768FDCB /* Mediator+BusinessModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "Mediator+BusinessModule.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		791C379F15F75A8872B3E5D5DDF73AD7 /* Mediator+BusinessModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mediator+BusinessModule.release.xcconfig"; sourceTree = "<group>"; };
+		90029D7F6507EF559328917BE19E0197 /* Mediator+MeModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Mediator+MeModule.swift"; path = "Mediator+BusinessModule/Mediator+MeModule.swift"; sourceTree = "<group>"; };
 		9B642EDEE1FA6B219585059478B984A9 /* BasicComponents */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BasicComponents; path = BasicComponents.xcodeproj; sourceTree = "<group>"; };
-		B84D231993121A539A568C93A89D6973 /* Mediator+BusinessModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mediator+BusinessModule-dummy.m"; sourceTree = "<group>"; };
+		9E14C55147C23920ABD079373C9A40DC /* Mediator+BusinessModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mediator+BusinessModule-Info.plist"; sourceTree = "<group>"; };
+		AAC6956C1C751BBEF379EE77DD1F9A32 /* Mediator+MomentModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Mediator+MomentModule.swift"; path = "Mediator+BusinessModule/Mediator+MomentModule.swift"; sourceTree = "<group>"; };
+		ADDA317155670CD6FAF8E5BEB56FDBD9 /* Mediator+HomeModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Mediator+HomeModule.swift"; path = "Mediator+BusinessModule/Mediator+HomeModule.swift"; sourceTree = "<group>"; };
 		C50D1737EF68EC95F91D0A362078F5EC /* BasicComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BasicComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBED8F61726EA82E4EA32FE970B9696E /* Mediator+BusinessModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mediator+BusinessModule-prefix.pch"; sourceTree = "<group>"; };
-		F4661FC873DD5FD2287137E4C0F1C12A /* Mediator+MeModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Mediator+MeModule.swift"; path = "Mediator+BusinessModule/Mediator+MeModule.swift"; sourceTree = "<group>"; };
-		FF38F4C29CB5FE19BC37970C54B37D0D /* Mediator+MomentModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Mediator+MomentModule.swift"; path = "Mediator+BusinessModule/Mediator+MomentModule.swift"; sourceTree = "<group>"; };
-		FF93E58A8D532F103E4ECABF0CB3CB50 /* Mediator+HomeModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Mediator+HomeModule.swift"; path = "Mediator+BusinessModule/Mediator+HomeModule.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +69,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1B958815A9AD2FBE94720C1A3AE16AF8 /* Pod */ = {
+		09740F1DD0A9E6B1E52688131C558182 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				854B6FD544FA122EBFBF0121B768FDCB /* Mediator+BusinessModule.podspec */,
+				5B42E68584429F57D812D5C27C073B14 /* Mediator+BusinessModule.modulemap */,
+				74AEE6631CB1C23819F4C54B7CA6B90E /* Mediator+BusinessModule-dummy.m */,
+				9E14C55147C23920ABD079373C9A40DC /* Mediator+BusinessModule-Info.plist */,
+				5671392E565164192661A35A4CB6E54E /* Mediator+BusinessModule-prefix.pch */,
+				72D50CE70220ADC52B6E9F59B49DB291 /* Mediator+BusinessModule-umbrella.h */,
+				4CB4FC84BB45D9B491DE0BE542F57841 /* Mediator+BusinessModule.debug.xcconfig */,
+				791C379F15F75A8872B3E5D5DDF73AD7 /* Mediator+BusinessModule.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Pods/Target Support Files/Mediator+BusinessModule";
+			sourceTree = "<group>";
+		};
+		2B501B2AA11ACA43910AC999781BD709 /* Mediator+BusinessModule */ = {
+			isa = PBXGroup;
+			children = (
+				ADDA317155670CD6FAF8E5BEB56FDBD9 /* Mediator+HomeModule.swift */,
+				90029D7F6507EF559328917BE19E0197 /* Mediator+MeModule.swift */,
+				AAC6956C1C751BBEF379EE77DD1F9A32 /* Mediator+MomentModule.swift */,
+				4673EA4A92BA38209C9992876BB452E9 /* Mediator+RoomModule.swift */,
+				5DE1A8928956005FF63A03CE36D4F0A8 /* Pod */,
+				09740F1DD0A9E6B1E52688131C558182 /* Support Files */,
+			);
+			name = "Mediator+BusinessModule";
+			path = ..;
 			sourceTree = "<group>";
 		};
 		33CADF7979A4A5154A235E818EEEFADC /* iOS */ = {
@@ -84,33 +106,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7D64AE9E8D6A4B72724C5B1267E966D6 /* Mediator+BusinessModule */ = {
+		5DE1A8928956005FF63A03CE36D4F0A8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FF93E58A8D532F103E4ECABF0CB3CB50 /* Mediator+HomeModule.swift */,
-				F4661FC873DD5FD2287137E4C0F1C12A /* Mediator+MeModule.swift */,
-				FF38F4C29CB5FE19BC37970C54B37D0D /* Mediator+MomentModule.swift */,
-				0BDA9E16274F507E9064C91928F49748 /* Mediator+RoomModule.swift */,
-				1B958815A9AD2FBE94720C1A3AE16AF8 /* Pod */,
-				80D54AED347880C05A31C56A3B96264E /* Support Files */,
+				4914AEB0B22CA5DAD346220024878944 /* LICENSE */,
+				74E7D77AA9BB302DDD65A4F51B62695F /* Mediator+BusinessModule.podspec */,
 			);
-			name = "Mediator+BusinessModule";
-			path = ..;
-			sourceTree = "<group>";
-		};
-		80D54AED347880C05A31C56A3B96264E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				42EF0E194AE11B893175F4F742A69796 /* Mediator+BusinessModule.modulemap */,
-				B84D231993121A539A568C93A89D6973 /* Mediator+BusinessModule-dummy.m */,
-				832B5146366DBC9CA514DFFE6FD5AD66 /* Mediator+BusinessModule-Info.plist */,
-				CBED8F61726EA82E4EA32FE970B9696E /* Mediator+BusinessModule-prefix.pch */,
-				72EFCF7992DA5DF66F2F93278A5D3BE0 /* Mediator+BusinessModule-umbrella.h */,
-				4AE1A0E89C04781E5B62254F771C411E /* Mediator+BusinessModule.debug.xcconfig */,
-				067E2EA125DB84A1C87F5537B04FD65C /* Mediator+BusinessModule.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/Mediator+BusinessModule";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		ADBFFAD630E2B282EFEBA154B3EBD9D9 /* Dependencies */ = {
@@ -126,7 +128,7 @@
 			children = (
 				ADBFFAD630E2B282EFEBA154B3EBD9D9 /* Dependencies */,
 				05F23B35E3BD7577D81BB135001DBF36 /* Frameworks */,
-				7D64AE9E8D6A4B72724C5B1267E966D6 /* Mediator+BusinessModule */,
+				2B501B2AA11ACA43910AC999781BD709 /* Mediator+BusinessModule */,
 				E29AC86722DF5158CE5D57A3FC136B14 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -165,7 +167,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C24F9D49A1EEE9C029CE70108C940F51 /* PBXTargetDependency */,
+				3FABE06F1F1A41E414426BF7276C545F /* PBXTargetDependency */,
 			);
 			name = "Mediator+BusinessModule";
 			productName = "Mediator+BusinessModule";
@@ -230,10 +232,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C24F9D49A1EEE9C029CE70108C940F51 /* PBXTargetDependency */ = {
+		3FABE06F1F1A41E414426BF7276C545F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BasicComponents;
-			targetProxy = 68C5341A5EE6AF1566D4667A91C0EA88 /* PBXContainerItemProxy */;
+			targetProxy = 4220028A5E6F0BACF4C7062EFE29738D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -302,7 +304,7 @@
 		};
 		87487234D77EFBA49D879EB61882E82F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 067E2EA125DB84A1C87F5537B04FD65C /* Mediator+BusinessModule.release.xcconfig */;
+			baseConfigurationReference = 791C379F15F75A8872B3E5D5DDF73AD7 /* Mediator+BusinessModule.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -404,7 +406,7 @@
 		};
 		DA65E4047415F5A55C4C2D814F4F6949 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AE1A0E89C04781E5B62254F771C411E /* Mediator+BusinessModule.debug.xcconfig */;
+			baseConfigurationReference = 4CB4FC84BB45D9B491DE0BE542F57841 /* Mediator+BusinessModule.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
