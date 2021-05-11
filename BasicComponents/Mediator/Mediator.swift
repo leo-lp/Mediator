@@ -10,59 +10,8 @@ import UIKit
 public class Mediator {
     public static let shared = { Mediator() }()
 
-    private let lock = UnfairLock()
-    private lazy var cachedTarget = [String: NSObject]()
-
-    /// 本地组件调用入口
-    /// - Parameters:
-    ///   - module: 模块名
-    ///   - target: 目标名
-    ///   - action: 方法名
-    ///   - params: 方法参数
-    ///   - shouldCacheTarget: 是否需要缓存`Target`
-    /// - Returns: `action`的返回值
-    public func perform(_ module: String?, target: String, action: String, params: [String: Any]?, shouldCacheTarget: Bool) -> AnyObject? {
-        assert(target.isEmpty == false && action.isEmpty == false)
-
-        // generate target
-        let targetClassString: String
-        if let swiftModule = module, swiftModule.isEmpty == false {
-            targetClassString = "\(swiftModule).Target_\(target)"
-        } else {
-            targetClassString = "Target_\(target)"
-        }
-
-        var target = safeGetCachedTarget(targetClassString)
-        if target == nil {
-            target = (NSClassFromString(targetClassString) as? NSObject.Type)?.init()
-        }
-
-        // generate action
-        let actionString = "Action_\(action):"
-        let action = NSSelectorFromString(actionString)
-        guard let target = target else {
-            // 这里是处理无响应请求的地方之一，这个demo做得比较简单，如果没有可以响应的target，就直接return了。实际开发过程中是可以事先给一个固定的target专门用于在这个时候顶上，然后处理这种请求的
-            noTargetActionResponse(with: targetClassString, selectorString: actionString, originParams: params)
-            return nil
-        }
-
-        if shouldCacheTarget {
-            safeSetCachedTarget(target, key: targetClassString)
-        }
-
-        guard target.responds(to: action) else {
-            // 这里是处理无响应请求的地方，如果无响应，则尝试调用对应target的notFound方法统一处理
-            let action = NSSelectorFromString("notFound:")
-            guard target.responds(to: action) else {
-                // 这里也是处理无响应请求的地方，在notFound都没有的时候，这个demo是直接return了。实际开发过程中，可以用前面提到的固定的target顶上的。
-                noTargetActionResponse(with: targetClassString, selectorString: actionString, originParams: params)
-                removeCachedTargetWith(fullTargetName: targetClassString)
-                return nil
-            }
-            return safePerformAction(action, target: target, params: params)
-        }
-        return safePerformAction(action, target: target, params: params)
-    }
+    // MARK: - Target-Action
+    private var targets: [String: NSObject] = [:]
 
     /// 远程App调用入口
     /// - Parameters:
@@ -72,8 +21,8 @@ public class Mediator {
     /// ```
     /// aaa://targetA/actionB?id=1234
     /// ```
-    public func perform(_ url: URL, completion: (([String: Any]?) -> Void)?) -> AnyObject? {
-        var params = [String: Any]()
+    public func perform(_ url: URL, completion: ((Param?) -> Void)?) -> AnyObject? {
+        var params: Param = [:]
         let urlComponents = URLComponents(string: url.absoluteString)
 
         // 遍历所有参数
@@ -83,13 +32,12 @@ public class Mediator {
 
         // 这里这么写主要是出于安全考虑，防止黑客通过远程方式调用本地模块。这里的做法足以应对绝大多数场景，如果要求更加严苛，也可以做更加复杂的安全逻辑。
         let actionName = url.path.replacingOccurrences(of: "/", with: "")
-        guard let target = url.host,
-              actionName.hasPrefix("native") == false else {
+        guard let target = url.host, actionName.hasPrefix("native") == false else {
             return NSNumber(value: false)
         }
 
         // 这个demo针对URL的路由处理非常简单，就只是取对应的target名字和method名字，但这已经足以应对绝大部份需求。如果需要拓展，可以在这个方法调用之前加入完整的路由逻辑
-        let result = perform(nil, target: target, action: actionName, params: params, shouldCacheTarget: false)
+        let result = perform(Action(nil, class: target, method: actionName, params: params, toState: nil, shouldCacheTarget: false))
         if let result = result {
             completion?(["result": result])
         } else {
@@ -98,45 +46,117 @@ public class Mediator {
         return result
     }
 
-    /// 删除缓存的`Target`
-    /// - Parameter fullTargetName: 在oc环境下，就是Target_XXXX。要带上Target_前缀。在swift环境下，就是XXXModule.Target_YYY。不光要带上Target_前缀，还要带上模块名
-    public func removeCachedTargetWith(fullTargetName: String) {
-        assert(fullTargetName.isEmpty == false)
-
-        lock.around {
-            cachedTarget.removeValue(forKey: fullTargetName)
+    public func perform(_ action: Action) -> AnyObject? { // 可以设置更改当前状态
+        if let toState = action.toState, toState.isEmpty == false {
+            currentState = toState
         }
+
+        // Middleware 中间件
+        if let middleware = middlewares[action.cacheKey] {
+            middleware.forEach { _ = perform($0) }
+        }
+
+        let targetString = action.targetString
+        var target = targets[targetString]
+        if target == nil {
+            target = action.target
+
+            if action.shouldCacheTarget {
+                targets[targetString] = target
+            }
+        }
+
+        guard let target = target else {
+            // 这里是处理无响应请求的地方之一，这个demo做得比较简单，如果没有可以响应的target，就直接return了。实际开发过程中是可以事先给一个固定的target专门用于在这个时候顶上，然后处理这种请求的
+            Notfound_TargetAction(action)
+            targets.removeValue(forKey: targetString)
+            return nil
+        }
+
+        // State action 状态处理
+        if currentState.isEmpty == false {
+            let stateMethod = NSSelectorFromString("\(action.method)_state_\(currentState):")
+            if target.responds(to: stateMethod) {
+                return target.perform(stateMethod, params: action.params)
+            } else {
+                assert(false, "notfount \(action.method)_state_\(currentState):") // debug
+            }
+        }
+
+        // 普通 action
+        let method = action.action
+        if target.responds(to: method) {
+            return target.perform(method, params: action.params)
+        } else {
+            // 这里是处理无响应请求的地方，如果无响应，则尝试调用对应target的notFound方法统一处理
+            let notFound_Action = action.notFound_Action
+            if target.responds(to: notFound_Action) {
+                return target.perform(notFound_Action, params: action.params)
+            } else {
+                // 这里也是处理无响应请求的地方，在notFound都没有的时候，这个demo是直接return了。实际开发过程中，可以用前面提到的固定的target顶上的。
+                Notfound_TargetAction(action)
+                assert(false, "notfount \(action.actionString), \(action.notFound_ActionString)") // debug
+            }
+        }
+
+        targets.removeValue(forKey: targetString)
+        return nil
     }
 
-    private func noTargetActionResponse(with targetString: String, selectorString: String, originParams: [String: Any]?) {
-        guard let target = (NSClassFromString("Target_NoTargetAction") as? NSObject.Type)?.init() else {
-            return assert(false)
-        }
+    // MARK: - Middleware
+    private var middlewares: [String: [Action]] = [:] // 中间件
 
-        let action = NSSelectorFromString("Action_response:")
-        var params: [String: Any] = ["targetString": targetString, "selectorString": selectorString]
-        if let originParams = originParams {
-            params["originParams"] = originParams
-        }
-        _ = safePerformAction(action, target: target, params: params)
+    // Middleware 当设置的方法执行时先执行指定的方法，可用于观察某方法的执行，然后通知其它 com 执行观察方法进行响应
+    public func addMiddleware(_ action: Action) -> Self {
+        let cacheKey = action.cacheKey
+        var arr = middlewares[cacheKey] ?? []
+        arr.append(action)
+        middlewares[cacheKey] = arr
+        return self
     }
 
-    private func safePerformAction(_ action: Selector, target: NSObject, params: [String: Any]?) -> AnyObject? {
-        target.perform(action, with: params)?.takeUnretainedValue()
+    // MARK: - State manager
+    public private(set) var currentState: String = ""
+
+    public func updateCurrentState(_ state: String) -> Self {
+        if state.isEmpty { assert(false); return self }
+
+        currentState = state
+        return self
     }
 
-    // MARK: - Getters and Setters
-    private func safeGetCachedTarget(_ key: String) -> NSObject? {
-        var obj: NSObject?
-        lock.around {
-            obj = cachedTarget[key]
-        }
-        return obj
+    // MARK: - Observer
+    private var observers: [String: [Action]] = [:] // 存储 identifier 观察者
+
+    public func notifyObservers(_ identifier: String) {
+        observers[identifier]?.forEach { _ = perform($0) }
     }
 
-    private func safeSetCachedTarget(_ target: NSObject, key: String) {
-        lock.around {
-            cachedTarget[key] = target
+    public func addObserver(_ identifier: String, action: Action) -> Self {
+        if identifier.isEmpty { assert(false); return self }
+
+        var arr = observers[identifier] ?? []
+        arr.append(action)
+        observers[identifier] = arr
+        return self
+    }
+
+    private func Notfound_TargetAction(_ action: Action) {
+        if let notFound_Target = action.notFound_Target {
+            let notFound_Action = action.notFound_Action
+            if notFound_Target.responds(to: notFound_Action) {
+                _ = notFound_Target.perform(notFound_Action, params: action.toDictionary)
+            } else {
+                assert(false, "notfount \(action.notFound_ActionString)") // debug
+            }
+        } else {
+            assert(false, "notfount \(action.targetString), \(action.notFound_TargetString)") // debug
         }
+    }
+}
+
+extension NSObject {
+    fileprivate func perform(_ action: Selector, params: Param?) -> AnyObject? {
+        perform(action, with: params)?.takeUnretainedValue()
     }
 }

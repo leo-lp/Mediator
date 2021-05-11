@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9ED76A60E19BF9DD8AC0B093 /* Pods_Mediator_Example_Mediator_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791FD7578DCBE8C51FDCEB6F /* Pods_Mediator_Example_Mediator_Example.framework */; };
 		E81CCDE62644369F009BABB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81CCDE52644369F009BABB0 /* AppDelegate.swift */; };
 		E81CCDE82644369F009BABB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81CCDE72644369F009BABB0 /* SceneDelegate.swift */; };
 		E81CCDED2644369F009BABB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81CCDEB2644369F009BABB0 /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		E81CCDF2264436A0009BABB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81CCDF0264436A0009BABB0 /* LaunchScreen.storyboard */; };
 		E81CCDFD264436A0009BABB0 /* MediatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81CCDFC264436A0009BABB0 /* MediatorTests.swift */; };
 		E81CCE08264436A0009BABB0 /* MediatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81CCE07264436A0009BABB0 /* MediatorUITests.swift */; };
-		F8A6A38CC1BEA3BE03E06BDA /* Pods_Mediator_Mediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBB71C3685CBFD414493513 /* Pods_Mediator_Mediator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +35,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		58DB5D0D591B56849FAFAE51 /* Pods-Mediator-Mediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mediator-Mediator.debug.xcconfig"; path = "Target Support Files/Pods-Mediator-Mediator/Pods-Mediator-Mediator.debug.xcconfig"; sourceTree = "<group>"; };
-		5DBB71C3685CBFD414493513 /* Pods_Mediator_Mediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mediator_Mediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD9942AFAF86E0FDCFDDEC70 /* Pods-Mediator-Mediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mediator-Mediator.release.xcconfig"; path = "Target Support Files/Pods-Mediator-Mediator/Pods-Mediator-Mediator.release.xcconfig"; sourceTree = "<group>"; };
-		E81CCDE22644369F009BABB0 /* Mediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E77C1EDEC5D09A9E0CADE9 /* Pods-Mediator-Example-Mediator-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mediator-Example-Mediator-Example.debug.xcconfig"; path = "Target Support Files/Pods-Mediator-Example-Mediator-Example/Pods-Mediator-Example-Mediator-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		791FD7578DCBE8C51FDCEB6F /* Pods_Mediator_Example_Mediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mediator_Example_Mediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81CCDE22644369F009BABB0 /* Mediator-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mediator-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E81CCDE52644369F009BABB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E81CCDE72644369F009BABB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E81CCDEC2644369F009BABB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E81CCDEE264436A0009BABB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E81CCDF1264436A0009BABB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E81CCDF3264436A0009BABB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E81CCDF8264436A0009BABB0 /* MediatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81CCDF8264436A0009BABB0 /* Mediator-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mediator-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E81CCDFC264436A0009BABB0 /* MediatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorTests.swift; sourceTree = "<group>"; };
 		E81CCDFE264436A0009BABB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E81CCE03264436A0009BABB0 /* MediatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81CCE03264436A0009BABB0 /* Mediator-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mediator-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E81CCE07264436A0009BABB0 /* MediatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorUITests.swift; sourceTree = "<group>"; };
 		E81CCE09264436A0009BABB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8EBAB0952C90315B386C190 /* Pods-Mediator-Example-Mediator-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mediator-Example-Mediator-Example.release.xcconfig"; path = "Target Support Files/Pods-Mediator-Example-Mediator-Example/Pods-Mediator-Example-Mediator-Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8A6A38CC1BEA3BE03E06BDA /* Pods_Mediator_Mediator.framework in Frameworks */,
+				9ED76A60E19BF9DD8AC0B093 /* Pods_Mediator_Example_Mediator_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 		3AE26488C089DC598BC3EE4F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5DBB71C3685CBFD414493513 /* Pods_Mediator_Mediator.framework */,
+				791FD7578DCBE8C51FDCEB6F /* Pods_Mediator_Example_Mediator_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -102,9 +102,9 @@
 		E81CCDE32644369F009BABB0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E81CCDE22644369F009BABB0 /* Mediator.app */,
-				E81CCDF8264436A0009BABB0 /* MediatorTests.xctest */,
-				E81CCE03264436A0009BABB0 /* MediatorUITests.xctest */,
+				E81CCDE22644369F009BABB0 /* Mediator-Example.app */,
+				E81CCDF8264436A0009BABB0 /* Mediator-ExampleTests.xctest */,
+				E81CCE03264436A0009BABB0 /* Mediator-ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,8 +143,8 @@
 		FCC005A7AEB9A56AC17C3268 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				58DB5D0D591B56849FAFAE51 /* Pods-Mediator-Mediator.debug.xcconfig */,
-				DD9942AFAF86E0FDCFDDEC70 /* Pods-Mediator-Mediator.release.xcconfig */,
+				04E77C1EDEC5D09A9E0CADE9 /* Pods-Mediator-Example-Mediator-Example.debug.xcconfig */,
+				E8EBAB0952C90315B386C190 /* Pods-Mediator-Example-Mediator-Example.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../Pods;
@@ -153,9 +153,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E81CCDE12644369F009BABB0 /* Mediator */ = {
+		E81CCDE12644369F009BABB0 /* Mediator-Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E81CCE0C264436A0009BABB0 /* Build configuration list for PBXNativeTarget "Mediator" */;
+			buildConfigurationList = E81CCE0C264436A0009BABB0 /* Build configuration list for PBXNativeTarget "Mediator-Example" */;
 			buildPhases = (
 				CFDBF14574264CFC2F388C8F /* [CP] Check Pods Manifest.lock */,
 				E81CCDDE2644369F009BABB0 /* Sources */,
@@ -167,14 +167,14 @@
 			);
 			dependencies = (
 			);
-			name = Mediator;
+			name = "Mediator-Example";
 			productName = Mediator;
-			productReference = E81CCDE22644369F009BABB0 /* Mediator.app */;
+			productReference = E81CCDE22644369F009BABB0 /* Mediator-Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E81CCDF7264436A0009BABB0 /* MediatorTests */ = {
+		E81CCDF7264436A0009BABB0 /* Mediator-ExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E81CCE0F264436A0009BABB0 /* Build configuration list for PBXNativeTarget "MediatorTests" */;
+			buildConfigurationList = E81CCE0F264436A0009BABB0 /* Build configuration list for PBXNativeTarget "Mediator-ExampleTests" */;
 			buildPhases = (
 				E81CCDF4264436A0009BABB0 /* Sources */,
 				E81CCDF5264436A0009BABB0 /* Frameworks */,
@@ -185,14 +185,14 @@
 			dependencies = (
 				E81CCDFA264436A0009BABB0 /* PBXTargetDependency */,
 			);
-			name = MediatorTests;
+			name = "Mediator-ExampleTests";
 			productName = MediatorTests;
-			productReference = E81CCDF8264436A0009BABB0 /* MediatorTests.xctest */;
+			productReference = E81CCDF8264436A0009BABB0 /* Mediator-ExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E81CCE02264436A0009BABB0 /* MediatorUITests */ = {
+		E81CCE02264436A0009BABB0 /* Mediator-ExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E81CCE12264436A0009BABB0 /* Build configuration list for PBXNativeTarget "MediatorUITests" */;
+			buildConfigurationList = E81CCE12264436A0009BABB0 /* Build configuration list for PBXNativeTarget "Mediator-ExampleUITests" */;
 			buildPhases = (
 				E81CCDFF264436A0009BABB0 /* Sources */,
 				E81CCE00264436A0009BABB0 /* Frameworks */,
@@ -203,9 +203,9 @@
 			dependencies = (
 				E81CCE05264436A0009BABB0 /* PBXTargetDependency */,
 			);
-			name = MediatorUITests;
+			name = "Mediator-ExampleUITests";
 			productName = MediatorUITests;
-			productReference = E81CCE03264436A0009BABB0 /* MediatorUITests.xctest */;
+			productReference = E81CCE03264436A0009BABB0 /* Mediator-ExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -230,7 +230,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E81CCDDD2644369F009BABB0 /* Build configuration list for PBXProject "Mediator" */;
+			buildConfigurationList = E81CCDDD2644369F009BABB0 /* Build configuration list for PBXProject "Mediator-Example" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -243,9 +243,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E81CCDE12644369F009BABB0 /* Mediator */,
-				E81CCDF7264436A0009BABB0 /* MediatorTests */,
-				E81CCE02264436A0009BABB0 /* MediatorUITests */,
+				E81CCDE12644369F009BABB0 /* Mediator-Example */,
+				E81CCDF7264436A0009BABB0 /* Mediator-ExampleTests */,
+				E81CCE02264436A0009BABB0 /* Mediator-ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,15 +284,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Mediator-Mediator/Pods-Mediator-Mediator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Mediator-Example-Mediator-Example/Pods-Mediator-Example-Mediator-Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Mediator-Mediator/Pods-Mediator-Mediator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Mediator-Example-Mediator-Example/Pods-Mediator-Example-Mediator-Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mediator-Mediator/Pods-Mediator-Mediator-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mediator-Example-Mediator-Example/Pods-Mediator-Example-Mediator-Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CFDBF14574264CFC2F388C8F /* [CP] Check Pods Manifest.lock */ = {
@@ -310,7 +310,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Mediator-Mediator-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Mediator-Example-Mediator-Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -350,12 +350,12 @@
 /* Begin PBXTargetDependency section */
 		E81CCDFA264436A0009BABB0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E81CCDE12644369F009BABB0 /* Mediator */;
+			target = E81CCDE12644369F009BABB0 /* Mediator-Example */;
 			targetProxy = E81CCDF9264436A0009BABB0 /* PBXContainerItemProxy */;
 		};
 		E81CCE05264436A0009BABB0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E81CCDE12644369F009BABB0 /* Mediator */;
+			target = E81CCDE12644369F009BABB0 /* Mediator-Example */;
 			targetProxy = E81CCE04264436A0009BABB0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -498,7 +498,7 @@
 		};
 		E81CCE0D264436A0009BABB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58DB5D0D591B56849FAFAE51 /* Pods-Mediator-Mediator.debug.xcconfig */;
+			baseConfigurationReference = 04E77C1EDEC5D09A9E0CADE9 /* Pods-Mediator-Example-Mediator-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -517,7 +517,7 @@
 		};
 		E81CCE0E264436A0009BABB0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD9942AFAF86E0FDCFDDEC70 /* Pods-Mediator-Mediator.release.xcconfig */;
+			baseConfigurationReference = E8EBAB0952C90315B386C190 /* Pods-Mediator-Example-Mediator-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -551,7 +551,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mediator.app/Mediator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mediator-Example.app/Mediator-Example";
 			};
 			name = Debug;
 		};
@@ -572,7 +572,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mediator.app/Mediator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mediator-Example.app/Mediator-Example";
 			};
 			name = Release;
 		};
@@ -617,7 +617,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E81CCDDD2644369F009BABB0 /* Build configuration list for PBXProject "Mediator" */ = {
+		E81CCDDD2644369F009BABB0 /* Build configuration list for PBXProject "Mediator-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E81CCE0A264436A0009BABB0 /* Debug */,
@@ -626,7 +626,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E81CCE0C264436A0009BABB0 /* Build configuration list for PBXNativeTarget "Mediator" */ = {
+		E81CCE0C264436A0009BABB0 /* Build configuration list for PBXNativeTarget "Mediator-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E81CCE0D264436A0009BABB0 /* Debug */,
@@ -635,7 +635,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E81CCE0F264436A0009BABB0 /* Build configuration list for PBXNativeTarget "MediatorTests" */ = {
+		E81CCE0F264436A0009BABB0 /* Build configuration list for PBXNativeTarget "Mediator-ExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E81CCE10264436A0009BABB0 /* Debug */,
@@ -644,7 +644,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E81CCE12264436A0009BABB0 /* Build configuration list for PBXNativeTarget "MediatorUITests" */ = {
+		E81CCE12264436A0009BABB0 /* Build configuration list for PBXNativeTarget "Mediator-ExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E81CCE13264436A0009BABB0 /* Debug */,

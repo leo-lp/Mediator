@@ -1,6 +1,0 @@
-framework module Pods_Mediator_Mediator {
-  umbrella header "Pods-Mediator-Mediator-umbrella.h"
-
-  export *
-  module * { export * }
-}

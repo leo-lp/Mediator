@@ -11,8 +11,8 @@ extension Mediator {
 
     public func buildHomeVC(_ callback: @escaping(String) -> Void) -> UIViewController? {
         let params: [String: Any] = ["callback": callback]
-
-        let vc = perform("BusinessModule", target: "HomeModule", action: "BuildHomeVC", params: params, shouldCacheTarget: false) as? UIViewController
+        let action = Action("BusinessModule", class: "Target_HomeModule", method: "Action_BuildHomeVC", params: params)
+        let vc = perform(action) as? UIViewController
         assert(vc != nil)
         return vc
     }

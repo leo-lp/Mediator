@@ -7,7 +7,7 @@ use_frameworks!
 
 workspace 'Mediator.xcworkspace'
 
-abstract_target 'Mediator' do
+abstract_target 'Mediator-Example' do
 
     #target 'MediatorDemo' do
         #project 'MediatorDemo/MediatorDemo.xcodeproj'
@@ -16,8 +16,8 @@ abstract_target 'Mediator' do
         #pod 'SwiftProtobuf', '= 1.12.0'
     #end
 
-    target 'Mediator' do
-        project 'Mediator/Mediator.xcodeproj'
+    target 'Mediator-Example' do
+        project 'Mediator-Example/Mediator-Example.xcodeproj'
 
         # https://github.com/apple/swift-protobuf
         #pod 'SwiftProtobuf', '= 1.12.0'

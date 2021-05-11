@@ -93,10 +93,6 @@ TODO: Add long description of the pod here.
   s.subspec 'Mediator' do |ss|
     ss.source_files = 'BasicComponents/Mediator/**/*'
   end
-
-  s.subspec 'UnfairLock' do |ss|
-      ss.source_files = 'BasicComponents/UnfairLock/**/*'
-  end
   
   # s.vendored_frameworks = ['Librarys/NAME.framework']
   

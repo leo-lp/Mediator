@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_Mediator_MediatorVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_Mediator_MediatorVersionString[];
+FOUNDATION_EXPORT double Pods_Mediator_Example_Mediator_ExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Mediator_Example_Mediator_ExampleVersionString[];
 

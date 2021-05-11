@@ -1,9 +1,7 @@
 PODS:
   - BasicComponents (0.1.0):
     - BasicComponents/Mediator (= 0.1.0)
-    - BasicComponents/UnfairLock (= 0.1.0)
   - BasicComponents/Mediator (0.1.0)
-  - BasicComponents/UnfairLock (0.1.0)
   - BusinessModule (0.1.0):
     - BusinessModule/HomeModule (= 0.1.0)
     - BusinessModule/MeModule (= 0.1.0)
@@ -38,10 +36,10 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  BasicComponents: abe4938b6f850798e119c0edfa5a40d07fce9bca
+  BasicComponents: 205de2066e74eaafa8b53d222d705aea3b12870d
   BusinessModule: ff011b4db7f456a4da5245d2398be5f69e7a4fed
   "Mediator+BusinessModule": 3350d0722728182cdf7fa7995ebfcaa7eb85e55d
 
-PODFILE CHECKSUM: fe1b6acbfad76709cf7fa103941b5e7bb7b19a1f
+PODFILE CHECKSUM: a5ce3667551fe4c1a5a2a20e0cd4fb63c1c2122e
 
 COCOAPODS: 1.10.1

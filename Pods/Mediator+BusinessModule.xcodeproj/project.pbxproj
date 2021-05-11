@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4220028A5E6F0BACF4C7062EFE29738D /* PBXContainerItemProxy */ = {
+		BD6E807CB9FDEFED16D9FE45EA52E75E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9B642EDEE1FA6B219585059478B984A9 /* BasicComponents.xcodeproj */;
 			proxyType = 1;
@@ -167,7 +167,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				3FABE06F1F1A41E414426BF7276C545F /* PBXTargetDependency */,
+				79EC3D070CD78DACC9C99593055F6406 /* PBXTargetDependency */,
 			);
 			name = "Mediator+BusinessModule";
 			productName = "Mediator+BusinessModule";
@@ -232,10 +232,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3FABE06F1F1A41E414426BF7276C545F /* PBXTargetDependency */ = {
+		79EC3D070CD78DACC9C99593055F6406 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BasicComponents;
-			targetProxy = 4220028A5E6F0BACF4C7062EFE29738D /* PBXContainerItemProxy */;
+			targetProxy = BD6E807CB9FDEFED16D9FE45EA52E75E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

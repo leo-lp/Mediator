@@ -14,8 +14,8 @@ extension Mediator {
             "callback": callback,
             "contentText": contentText
         ]
-
-        let vc = perform("BusinessModule", target: "RoomModule", action: "BuildRoomVC", params: params, shouldCacheTarget: false) as? UIViewController
+        let action = Action("BusinessModule", class: "Target_RoomModule", method: "Action_BuildRoomVC", params: params)
+        let vc = perform(action) as? UIViewController
         assert(vc != nil)
         return vc
     }
