@@ -11,7 +11,7 @@ final class Target_HomeModule: NSObject {
 
     @objc func Action_BuildHomeVC(_ params: [String: Any]) -> UIViewController {
         if let callback = params["callback"] as? (String) -> Void {
-            callback("success")
+            callback("HomeViewController build success")
         }
         return HomeViewController()
     }

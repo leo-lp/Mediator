@@ -11,7 +11,7 @@ final class Target_MomentModule: NSObject {
     
     @objc func Action_BuildMomentVC(_ params: [String: Any]) -> UIViewController {
         if let callback = params["callback"] as? (String) -> Void {
-            callback("success")
+            callback("MomentViewController build success")
         }
         return MomentViewController()
     }

@@ -11,7 +11,7 @@ class Target_RoomModule: NSObject {
     
     @objc func Action_BuildRoomVC(_ params: [String: Any]) -> UIViewController {
         if let callback = params["callback"] as? (String) -> Void {
-            callback("success")
+            callback("RoomViewController build success")
         }
         return RoomViewController(contentText: (params["contentText"] as? String) ?? "")
     }
